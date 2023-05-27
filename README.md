@@ -2,6 +2,26 @@
 
 This script is for Windows users who want to convert their Google Keep notes (exported in JSON format) into Markdown (.md) files, suitable for use in Obsidian. Importantly, the script preserves the original timestamps from Google Keep notes.
 
+Please note that this script only converts text content and labels from Google Keep notes. Attachments such as images and audio files are not converted.
+
+## How the Script Works
+
+### Handling of Labels
+
+In Google Keep, notes can have labels associated with them. This script converts these labels into hashtags at the end of the Markdown file.
+
+For example, if a Google Keep note has labels "work" and "meeting", these would appear at the end of the Markdown note like this:
+
+#work #programming
+
+### Handling of Text Content
+
+The main text content of the Google Keep note is preserved as the main body of the Markdown file.
+
+### Handling of Titles
+
+If a Google Keep note has a title, the script uses this title (with any invalid filename characters removed) as the filename for the Markdown file. If the title is absent or too long, the script uses the first few characters of the note's content as the filename.
+
 ## How to use this script
 
 ### Step 1: Export Google Keep data using Google Takeout
