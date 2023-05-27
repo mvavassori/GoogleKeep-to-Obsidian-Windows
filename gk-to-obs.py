@@ -10,7 +10,7 @@ import string
 # The folder containing all your json google keep notes
 input_folder = r"C:\Users\username\Desktop\GoogleKeep-json-Notes"
 # The folder where you want to save your Obsidian Markdown notes
-output_folder = r"C:\Users\useername\Desktop\Output-md-Notes"
+output_folder = r"C:\Users\username\Desktop\Output-md-Notes"
 
 def sanitize_filename(filename):
     # Remove or replace invalid characters in the filename
