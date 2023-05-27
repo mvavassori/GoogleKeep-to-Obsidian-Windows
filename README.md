@@ -10,7 +10,7 @@ Please note that this script only converts text content and labels from Google K
 
 In Google Keep, notes can have labels associated with them. This script converts these labels into hashtags at the end of the Markdown file.
 
-For example, if a Google Keep note has labels "work" and "meeting", these would appear at the end of the Markdown note like this:
+For example, if a Google Keep note has labels "work" and "programming", these would appear at the end of the Markdown note like this:
 
 #work #programming
 
